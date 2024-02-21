@@ -335,7 +335,9 @@ p.desription {
     padding: 30px;
     position: relative;
 }
-
+.contact-us .icon-wrapper{
+    padding:0px;
+}
 .deliver {
     padding: 70px 0px;
     position: relative;
@@ -734,21 +736,21 @@ section.contact-us {
         margin-top: -108px;
     }
     .contact-box {
-        top: 70px;
+        top: 22px;
         left: 201px;
         width: 400px;
     }
     .contact-us .icon-wrapper {
         flex-direction: column;
         width: 50%;
-        padding: 10px;
+        padding: 0px;
     }
     .bg-red {
-        height: 990px;
+        height: 980px;
         width: 50%;
         top: 0px;
         z-index: -1;
-    }   
+    }
     section.contact-us {
         position: relative;
         padding: 70px 0px 150px;
@@ -759,6 +761,12 @@ section.contact-us {
     .banner img {
        width: 96%;
         object-fit: cover;
+    }
+    .col.contact-col-2 img {
+        width: 229px;
+        height: 274px;
+        z-index: 3;
+        margin-top: -108px;
     }
     .about-text {
         width: 300px;
@@ -794,7 +802,8 @@ section.contact-us {
         top: 128px;
         left: 0px;
         width: 84%;
-        height: 173px;
+        height: 140px;
+    }
     }
     .text-box {
         width: 82%;
