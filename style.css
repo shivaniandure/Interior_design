@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container-fluid{
+    width:100%;
+    max-width:90%;
+    margin:0 auto; 
+}
+
+.container{
+    width:100%;
+    max-width:1000px;
+    margin:0 auto;
+}
+.row{
+   display:flex;
+   flex-direction: row;
+}
+.col{
+    width: 50%;
+}
+.align-items-center{
+    display:flex;
+}
+.justify-content-center{
+    display: flex;
+    justify-content:center;
+}
+
+/* colors : */
+.text-primary{
+    color:blue;
+}
+.text-light{
+    color:white;
+}
+
+.text-dark{
+    color:black;
+}
+
+/* background-color */
+.bg-dark{
+    background: black;
+}
+.bg-light{
+    background-color: white;
+}
+.v
